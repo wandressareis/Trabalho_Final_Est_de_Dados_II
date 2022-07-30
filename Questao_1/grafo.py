@@ -11,7 +11,9 @@ class Grafo:
         print("A matriz do grafo é:")
         for i in range(self.Vertices):
             print(self.grafo[i])
-            
+
+    def dijkstra(self, origem):
+        
             
 
 grafo = Grafo(4)
