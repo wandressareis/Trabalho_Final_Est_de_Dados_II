@@ -44,10 +44,8 @@ Este projeto está sob a licença (GPL-3) - veja o arquivo [LICENSE.md](https://
 
 ## 🎁 Expressões de gratidão
 
-* Conte a outras pessoas sobre este projeto 📢
-* Convide alguém da equipe para uma cerveja 🍺
 * Obrigado publicamente 🤓.
-* etc.
+
 
 ---
 
