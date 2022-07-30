@@ -1,7 +1,7 @@
 # Trabalho_Final_Est_de_Dados_II
 
 
-Um parágrafo da descrição do projeto vai aqui
+Um parágrafo da descrição do projeto vai aqui...
 
 ## 🚀 Começando
 
@@ -11,14 +11,14 @@ Consulte **Implantação** para saber como implantar o projeto.
 
 ### 📋 Pré-requisitos
 
-Python3 instalado, winrar para descompactação
+Python3 instalado, winrar para descompactação.
 
 
 ## 📦 Desenvolvimento
 
 Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
-## 🛠️ Construído com
+## 🛠️ Construído com:
 
 Mencione as ferramentas que você usou para criar seu projeto
 
