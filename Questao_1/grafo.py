@@ -12,10 +12,6 @@ class Grafo:
         for i in range(self.Vertices):
             print(self.grafo[i])
 
-    def dijkstra(self, origem):
-        
-            
-
 grafo = Grafo(4)
 grafo.imprimir_grafo()
 
