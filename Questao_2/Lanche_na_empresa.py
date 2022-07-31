@@ -1,6 +1,3 @@
-from importlib.metadata import entry_points
-from re import M
-
 
 class Grafo:
 
@@ -33,26 +30,25 @@ for i in range(comand[1]):
     comands = list(map(int, comand_char))
     empresa.adicionar_aresta(comands[0], comands[1], comands[2])
 
-empresa.imprimir_grafo()
+#empresa.imprimir_grafo()
 
 melhor_sala = 0
 menor_peso = 101
 peso_total = 0
 num_zero = 0
+
 for vertice in range(comand[0]):
     if(melhor_sala == 0):
         melhor_sala = vertice + 1
     for i in range(comand[0]):
+        if(empresa.grafo[vertice][i] == 0):
+            num_zero += 1
         if(empresa.grafo[vertice][i] != 0):
-            #if(empresa.grafo[vertice][i] == 0):
-            #    num_zero += 1
-            #if(num_zero > 1):
-            #    peso_total = 1000
-            #    break
             peso_total += empresa.grafo[vertice][i]
-    if(peso_total < menor_peso):
+    if(peso_total < menor_peso and num_zero < (comand[0] - 2)):
         melhor_sala = vertice + 1
+    num_zero = 0
             
-print(melhor_sala)
+#print(melhor_sala)
 distancia = max(D for D in empresa.grafo[melhor_sala - 1] if D != 0)
 print(distancia)
