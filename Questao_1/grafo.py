@@ -1,3 +1,5 @@
+#Authors Kaio Guilherme, Wandressa Reis
+
 class Grafo:
     
     def __init__(self, Vertices):

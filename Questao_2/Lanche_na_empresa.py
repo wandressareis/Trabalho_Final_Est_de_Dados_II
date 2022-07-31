@@ -1,3 +1,4 @@
+#Authors Kaio Guilherme, Wandressa Reis
 
 class Grafo:
 
