@@ -1,4 +1,4 @@
-#Fila
+#Authors Kaio Guilherme, Wandressa Reis
 
 def comando(fila,T, I, X):
     if(T == 1):
